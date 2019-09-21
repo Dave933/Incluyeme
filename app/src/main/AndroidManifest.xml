@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.incluyeme">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login"></activity>
+        <activity android:name=".SelectUser" />
+        <activity
+            android:name=".Ruta"
+            android:label="@string/title_activity_ruta"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Destino"
+            android:label="@string/title_activity_destino"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Origen"
+            android:label="@string/title_activity_origen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Pagos" />
+        <activity android:name=".NotasPorCurso" />
+        <activity android:name=".Notas" />
+        <activity android:name=".Horario" />
+        <activity android:name=".Turnos" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
